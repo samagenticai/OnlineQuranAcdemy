@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Improve mobile scrolling and touch behavior */
+html, body, #root {
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+	touch-action: pan-y;
+}
+
+/* Make sure body uses full height so flex/grid sizing behaves predictably */
+html, body {
+	height: 100%;
+}
